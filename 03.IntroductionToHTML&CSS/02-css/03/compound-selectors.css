@@ -1,0 +1,26 @@
+p{
+    color: red;
+}
+
+p.paragraph{
+    color: skyblue;
+    font-size: 20px;
+}
+
+div.special{
+    background-color: orange;
+    padding: 10px;
+}
+
+a[href="https://softuni.bg/"].second{
+    border: black solid 1px;
+    border-color: blueviolet;
+    padding: 3px;
+    color: orange;
+}
+
+p.first.second{
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(49, 144, 227);
+}
