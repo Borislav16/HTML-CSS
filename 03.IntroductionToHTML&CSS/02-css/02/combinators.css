@@ -1,0 +1,15 @@
+div p{
+    color: red;
+}
+
+ul > li{
+    list-style-type: disc;
+}
+
+p + p{
+    background-color: rgb(140, 137, 140);
+}
+
+p ~ span{
+    font-weight: 100;
+}
