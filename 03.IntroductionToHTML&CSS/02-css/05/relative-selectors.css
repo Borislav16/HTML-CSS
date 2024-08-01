@@ -1,0 +1,21 @@
+article:nth-of-type(3) > p{
+    background-color: rgb(224, 105, 125);
+}
+
+li:nth-of-type(2){
+    color: pink;
+}
+
+
+#first, #second{
+    font-style: normal;
+    color: darkblue;
+}
+
+#third{
+    color: rgb(17, 125, 17);
+}
+
+h2 ~ p {
+    color: blue;
+}
