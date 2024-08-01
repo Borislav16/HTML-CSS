@@ -1,0 +1,33 @@
+nav a:hover, .services a:hover, footer a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+header, section, footer{
+    border: black solid 1px;
+    margin: 10px;
+    padding-left: 7px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    font-style: normal;
+    margin-right: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
