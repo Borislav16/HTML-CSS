@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    box-sizing: border-box;
+}
+
+section{
+    border: black solid 0.1em;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+h2{
+    padding: 1em;
+}
+
+p{
+
+    margin: 1em;
+    padding: 1em;
+}
+
+.block p{
+    display: block;
+    border: black solid 0.1em;
+}
+
+.inline p{
+    display: inline;
+    border: black solid 0.1em;
+}
+
+.inline-block p{
+    display: inline-block;
+    border: black solid 0.1em;
+}
+section + section{
+    margin-top: 1.5em;
+}
+
