@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    box-sizing: border-box;
+}
+
+div{
+    border: solid black 0.1em;
+    padding: 1.5em;
+}
+
+.first{
+    margin: 20px;
+}
+
+.second{
+    margin: 10px 30px 20px 40px;
+}
+
+.third{
+    margin: -20px;
+}
