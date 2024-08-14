@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    box-sizing: border-box;
+}
+
+div{
+    border: solid black 0.1em;
+    margin: 0.7em;
+    padding: 1.5em;
+}
+
+.first{
+    height: 200px;
+}
+
+.second{
+    height: 50%;
+}
+
+.third{
+    height: 50vw;
+}
+
+.fourth{
+    min-height: 100px;
+    min-height: 300px;
+}
