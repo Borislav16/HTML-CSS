@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    box-sizing: border-box;
+}
+
+div{
+    width: 250px;
+    border: black solid 0.1em;
+    margin: 0.7em;
+    padding: 2em 1.5em;
+}
+
+.first{
+    border: solid;
+}
+
+.second{
+    border: dashed;
+}
+
+.third{
+    border: dotted;
+}
+
+.fourth{
+    border-top: dashed;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: dashed;
+}
+
