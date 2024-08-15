@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    box-sizing: border-box;
+}
+
+div{
+    border: solid black 1px;
+    margin: 0.7em 10px;
+    padding: 1.5em;
+}
+
+.first{
+    font-family: Arial, sans-serif;
+}
+
+.second{
+    font-size: 24px;
+}
+
+.third{
+    font-weight: bold;
+}
+
+.fourth{
+    font-style: italic;
+}
+
+.fifth{
+    font-variant: small-caps;
+}
