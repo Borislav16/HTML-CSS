@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    box-sizing: border-box;
+}
+
+div{
+    border: solid black 5px;
+    background: #eee;
+    width: 250px;
+    margin: 0.7em;
+    padding: 1.5em;
+}
+
+.first{
+    box-sizing: content-box;
+}
