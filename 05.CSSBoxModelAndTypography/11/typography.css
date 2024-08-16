@@ -1,0 +1,106 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: Georgia;
+}
+
+h1 {
+	font-size: 2.2rem;
+}
+
+h2 {
+	font-size: 2.0rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+}
+
+h4 {
+	font-size: 1.6rem;
+}
+
+h5 {
+	font-size: 1.4rem;
+}
+
+h6 {
+	font-size: 1.2rem;
+}
+
+p{
+    margin: 0.5em;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+}
+
+hr{
+    padding: 1.5rem auto 1.5rem;
+}
+
+ul ul {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+ul li {
+	list-style-type: square;
+}
+
+ul ul li {
+	list-style-type: disc;
+}
+
+ul ul ul li {
+	list-style-type: circle;
+}
+
+blockquote{
+    border-left: 5px solid rgba(187, 179, 179, 0.889);
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: rgba(128, 128, 128, 0.868);
+}
+
+blockquote p{
+    font-style: italic;
+    margin-left: 4rem;
+}
+
+blockquote p:last-child{
+    text-align: right;
+}
+
+th{
+    padding: 0.5em;
+    
+}
+
+table, tr th{
+    border: solid 1px black;
+}
+
+thead th{
+    border: 0;
+    
+}
+
+tr:nth-of-type(2n+1) > th{
+    background-color: rgba(128, 128, 128, 0.238);
+}
+
