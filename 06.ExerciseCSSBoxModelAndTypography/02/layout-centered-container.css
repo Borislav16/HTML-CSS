@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border: solid green 3px;
+    padding: 2em ;
+}
+
+section{
+    border: solid blue 3px;
+    margin: 0.5em 7em;
+    padding: 0.5em;
+}
+
+div{
+    border: solid black 3px;
+    margin: 2em;
+    padding: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
