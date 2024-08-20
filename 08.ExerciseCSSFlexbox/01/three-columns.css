@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(191, 186, 186);
+    font: 14px/1.5 Lato, sans-serif;
+    margin: 0;
+    padding: 2em;
+}
+
+div{
+    background-color: white;
+    max-width: 1100px;
+    height: 405;
+    margin: 4em auto;
+    padding: 2em;
+    border-radius: 0.3em;
+}
+
+.first{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    display: block;
+    margin-left: 300px;
+    max-width: 400px;
+    text-align: center;
+
+}
+
+header p, footer p{
+    font-style: italic;
+}
+
+.header > h2{
+    margin-top: -5em;
+}   
+
+
+footer{
+    margin-left: 160px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.flex section{
+    flex: 1 1 auto;
+    max-width: 320px;
+    display: block;
+    flex-direction: row;
+    width: 340px;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+header::after{
+    display: block;
+    content: '';
+    width: 100px;
+    height: 2px;
+    margin-left: 150px;
+    margin-top: 40px;
+    background-color: rgb(183, 177, 177);
+}
+
+
+footer::before{
+    display: block;
+    content: '';
+    width: 100px;
+    height: 2px;
+    margin-left: 290px;
+    margin-bottom: 40px;
+    background-color: rgb(183, 177, 177);
+}
