@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font: 13px/1.5 "Poppins", sans-serif;
+    font-style: normal;
+    padding: 2em;
+    justify-content: center;
+}
+
+
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 23px;
+}
+
+span{
+    color: #327DC4;
+}
+
+h1{
+    display: block;
+    text-align: center;
+}
+
+.container{
+    max-width: 1100px;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictures{
+    display: flex;
+    gap: 1.5em;
+}
+
+
+.pictures div{
+    flex: 1 1 30%;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #819DAF;
+    overflow: hidden;
+    border-radius: 23px;
+
+}
+
+
+.card div{
+    padding: 1em 1em;
+} 
+
+.card div h2{
+    margin-bottom: 1em;
+}
+
+.card div .text{
+    padding-right: 1em; 
+}
+
+a{
+    margin-top: 1em;
+    display: inline-block;
+    font-size: 11px;
+    padding: 0.5em 1.5em;
+    border: #323CC4 solid 1px;
+    border-radius: 2em;
+    text-decoration: none;
+    color: white;
+    outline: #D5D9DB 1px solid;
+    background-color: #327DC4;
+}
+
