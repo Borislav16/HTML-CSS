@@ -1,0 +1,55 @@
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-section h2,
+.coaches-section h2{
+    display: block;
+    text-align: center;
+    margin: 1em auto;
+}
+
+.article-container{
+    display: flex;
+    padding: 0em 2em 2em 2em;
+    gap: 2em;
+}
+
+.article-container p,
+.article-container h3{
+    margin: 0.8em;
+    width: 32ch;
+}
+
+.article-container article{
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.welcome-section article img{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.welcome-section article h3,
+.coaches-section article h4{
+    color: #D01919;
+}
+
+.coaches-section .article-container p{
+    
+    color: #A6A1A5;
+}
+
+
+.welcome-section .container h2::after,
+.coaches-section .container h2::after{
+    content: "";
+    display: block;
+    background-color: #D01919;
+    margin: 1em auto;
+    width: 31px;
+    height: 2px;
+}
