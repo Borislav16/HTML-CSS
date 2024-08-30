@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px/1.5;
+    font-family: 'Kode Mono';
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+}
+
+body{
+    background-color: #C1BDBA;
+}
+
+.main-div{
+    width: 755px;
+    height: auto;
+    margin: 2em auto;
+    background-color: #24333C;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+
+.header{
+    display: flex;
+}
+
+.header p{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 26px;
+    padding: 25px;
+}
+
+.header p:nth-of-type(1){
+    background-color: #1AB188;
+}
+
+.header p:nth-of-type(2){
+    background-color: #435359;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.input p{
+    display: block;
+    border: solid 1px #A0B3B0;
+    width: 100%;
+    font-size: 26px;
+    padding-left: 10px;
+    color: #92999E;
+}
+
+h1{
+    font-size: 46px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.first-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-line p{
+    width: 315px;
+}
+
+.input p::after {
+    content: '*';
+    font-size: 24px;
+    color: #1AB188; 
+    margin-left: 5px; 
+}
+
+.button p{
+    display: block;
+    background-color: #1AB188;
+    font-size: 44px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.header p:nth-of-type(2):hover{
+    background-color: #179A77;
+}
