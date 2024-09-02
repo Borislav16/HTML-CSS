@@ -1,0 +1,354 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html{
+    font-size: 14px/1.5;
+    font-family: 'Lato';
+}
+
+.container{
+    width: 1400px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #000000;
+}
+
+.header .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    padding: 15px;
+}
+
+nav ul{
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+li{
+    margin-left: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+
+.main{
+    background-color: #1DB954;
+}
+
+.main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.main .container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #1DB954;
+    z-index: 1; 
+}
+
+.main .container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #FFFFFF; 
+    z-index: 2;
+}   
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 220px;
+    z-index: 10;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px #909090 solid;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    width: 522px;
+    height: 501px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.5);
+    z-index: 15;
+}
+
+
+.card ul{
+    list-style-type: circle;
+}
+
+.card .column{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 70%;
+    align-items: center;
+    gap: 40px;
+    margin: 20px 20px 0 20px;
+}
+
+.column ul{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: #54546D;
+    font-size: 18px;
+}
+
+.column p{
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: #1DB954;
+}
+
+.column p a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.price{
+    display: flex;
+
+}
+
+.price p{
+    display: block;
+    flex: 1 1 50%;
+    text-align: center;
+    background-color: #191414;
+    padding-top: 15px;
+    padding-top: 15px;
+    position: relative; 
+}
+.price p a{
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.card .price{
+    display: flex;
+    flex: 0 1 10%;
+}
+
+.price p:nth-of-type(2):before {
+    content: '';
+    position: absolute;
+    top: 50%; 
+    left: 0;
+    transform: translateY(-50%);
+    height: 80%;
+    width: 1px; 
+    background-color: #FFFFFF;
+    z-index: 100;
+}
+
+.notes{
+    width: 800px;   
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+h3{
+    font-size: 32px;
+    font-family: 'Montserrat';
+    color: #54546D;
+}
+
+h2{
+    padding-bottom: 40px;
+    z-index: 20;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: 'Montserrat';
+}
+.notes img{
+    width: 600px;
+    height: auto;
+}
+
+.card > div{
+    flex: 1 1 60%;
+}
+.price{
+    flex: 1 1 25%;
+}
+
+
+.section .container{
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 180px;
+    
+}
+
+.section .container .text{
+    display: flex;
+    width: 1070px;
+}
+
+.article{
+    height: auto;
+    overflow: hidden;
+}
+
+.article p,
+.article h4{
+    margin-bottom: 20px;
+}
+
+.article h4{
+    font-size: 24px;
+    color: #000000;
+    font-family: 'Montserrat';
+}
+
+.article p{
+    font-size: 17px;
+    color: #00001F;
+}
+
+.table h1{
+    font-size: 52px;
+    font-family: 'Montserrat';
+    color: #000000;
+}
+
+table div p{
+    font-size: 18px;
+    color: #000000;
+}
+
+table div{
+    display: flex;
+    align-items: center;
+}
+
+.logo-dogo{
+    width: 464px;
+    height: 305px;
+    margin-right: -300px;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+table > div p{
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.text-cells{
+    font-size: 18px;
+    color: #000000;
+}
+.problem{
+    display: block;
+    text-align: center;
+}
+
+.icon-table {
+    width: 1200px;
+    border-collapse: collapse;
+    table-layout: fixed; 
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.icon-table .text-cell {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+    height: 60px; 
+}
+
+.icon-table tr:nth-child(odd) {
+    background-color: #81D8A0;
+}
+
+.icon-table tr:nth-child(even) {
+    background-color: #CCCBCB;
+}
+
+.check-icon,
+.cross-icon {
+    text-align: right; 
+    padding-right: 20px; 
+}
+
+.check-icon img,
+.cross-icon img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-table td {
+    border: none; 
+}
+
+footer{
+    background-color: #191414;
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+footer .container p{
+    padding: 20px 0;
+    color: #FFFFFF;
+    font-size: 17px;
+}
